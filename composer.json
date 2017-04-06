@@ -1,5 +1,5 @@
 {
-    "name": "YourVendorName/CookieNotice",
+    "name": "basilicom-pimcore-plugin/cookie-notice",
     "type": "pimcore-plugin",
     "require": {
         "pimcore/installer-plugin": ">=1"
