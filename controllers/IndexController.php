@@ -15,6 +15,7 @@ class CookieNotice_IndexController extends \Pimcore\Controller\Action\Admin
         $config = $this->getConfig();
         echo "var COOKIE_NOTICE_TEXT = '" . str_replace("'", "\'", $config->text) . "';\n";
         echo "var COOKIE_NOTICE_BUTTON = '" . str_replace("'", "\'", $config->buttonLabel) . "';\n";
+        echo "var COOKIE_NOTICE_DAYS = " . doubleval($config->cookieLifetimeDays) . ";\n";
     }
 
     public function cssAction()

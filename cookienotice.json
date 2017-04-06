@@ -3,5 +3,6 @@
             .cookieNotice__text {}
             .cookieNotice__button {}",
     "text": "",
-    "buttonLabel": ""
+    "buttonLabel": "",
+    "cookieLifetimeDays": 30
 }

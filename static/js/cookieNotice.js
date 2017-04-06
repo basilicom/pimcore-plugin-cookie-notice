@@ -19,7 +19,7 @@ window.onload = function () {
         cookieNoticeButton.innerHTML = typeof(COOKIE_NOTICE_BUTTON) !== 'undefined' && COOKIE_NOTICE_BUTTON != '' ? COOKIE_NOTICE_BUTTON : 'Cookies&nbsp;erlauben';
 
         cookieNoticeButton.addEventListener('click', function () {
-            var days = 30;
+            var days = typeof(COOKIE_NOTICE_DAYS) != 'undefined' && parseFloat(COOKIE_NOTICE_DAYS) > 0 ? parseFloat(COOKIE_NOTICE_DAYS) : 30;
             var date = new Date();
             date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
             document.cookie = cookieName + "=1; expires=" + date.toUTCString();
