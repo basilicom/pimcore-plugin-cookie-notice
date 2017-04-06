@@ -1,0 +1,25 @@
+.cookieNotice {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 10px;
+  display: flex;
+
+  .cookieNotice__text {
+    color: #333;
+    margin: auto 0px;
+    flex-grow: 1;
+  }
+
+  .cookieNotice__button {
+    margin: 0px 0px auto 15px;
+    border: 2px solid #333;
+    padding: 10px;
+    color: #333;
+    background-color: #FFF;
+    cursor: pointer;
+    flex-grow: 0;
+  }
+}

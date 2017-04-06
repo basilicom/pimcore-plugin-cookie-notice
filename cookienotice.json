@@ -1,0 +1,7 @@
+{
+    "css": ".cookieNotice {}
+            .cookieNotice__text {}
+            .cookieNotice__button {}",
+    "text": "",
+    "buttonLabel": ""
+}
