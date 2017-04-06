@@ -1,7 +1,7 @@
 CheckHealth Pimcore Plugin
 ================================================
     
-Developer info: [Pimcore at basilicom](http://basilicom.de/en/pimcore)
+Developer info: [Pimcore at Basilicom](http://basilicom.de/en/pimcore)
 
 ## Code Example / Method of Operation
 

@@ -1,13 +1,13 @@
 {
   "name": "basilicom-pimcore-plugin/check-health",
   "type": "pimcore-plugin",
-  "license": "BSD-3-Clause",
+  "license": "GPLv3",
   "description": "A Pimcore plugin that adds an editable cookie notice to your project.",
   "keywords": ["pimcore", "plugin", "cookie", "notice"],
   "homepage": "http://basilicom.de/en/pimcore",
   "authors": [
     {
-      "name": "basilicom Team",
+      "name": "Basilicom Team",
       "email": "info@basilicom.de",
       "homepage": "http://basilicom.de/en/pimcore",
       "role": "Developer"
