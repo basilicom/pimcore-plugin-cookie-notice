@@ -1,4 +1,4 @@
-CheckHealth Pimcore Plugin
+CookieNotice Pimcore Plugin
 ================================================
     
 Developer info: [Pimcore at Basilicom](http://basilicom.de/en/pimcore)
