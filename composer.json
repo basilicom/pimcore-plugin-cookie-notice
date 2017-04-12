@@ -1,0 +1,24 @@
+{
+  "name": "basilicom-pimcore-plugin/cookie-notice",
+  "type": "pimcore-plugin",
+  "license": "GPLv3",
+  "description": "A Pimcore plugin that adds an editable cookie notice to your project.",
+  "keywords": ["pimcore", "plugin", "cookie", "notice"],
+  "homepage": "http://basilicom.de/en/pimcore",
+  "authors": [
+    {
+      "name": "Basilicom Team",
+      "email": "info@basilicom.de",
+      "homepage": "http://basilicom.de/en/pimcore",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+        "pimcore/installer-plugin": ">=1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CookieNotice\\": "lib"
+        }
+    }
+}
