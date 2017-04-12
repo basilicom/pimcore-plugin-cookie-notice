@@ -1,2 +1,25 @@
-.cookieNotice{position:fixed;bottom:0px;left:0px;width:100%;background:#FFFFFF;padding:10px;display:flex}.cookieNotice .cookieNotice__text{color:#333;margin:auto 0px;flex-grow:1}.cookieNotice .cookieNotice__button{margin:0px 0px auto 15px;border:2px solid #333;padding:10px;color:#333;background-color:#FFF;cursor:pointer;flex-grow:0}
+.cookieNotice {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  z-index: 999; }
+  .cookieNotice .cookieNotice__inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto; }
+  .cookieNotice .cookieNotice__text {
+    color: #333333; }
+  .cookieNotice .cookieNotice__button {
+    margin: 0px 0px auto 15px;
+    border: 2px solid #333333;
+    padding: 10px;
+    color: #333333;
+    background-color: #ffffff;
+    cursor: pointer; }
+
 /*# sourceMappingURL=cookieNotice.css.map */

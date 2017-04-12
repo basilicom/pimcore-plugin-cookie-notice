@@ -14,6 +14,9 @@ window.onload = function () {
         var cookieNotice = document.createElement('div');
         cookieNotice.setAttribute('class', 'cookieNotice');
 
+        var cookieNoticeInner = document.createElement('div');
+        cookieNoticeInner.setAttribute('class', 'cookieNotice__inner');
+        
         var cookieNoticeButton = document.createElement('div');
         cookieNoticeButton.setAttribute('class', 'cookieNotice__button');
         cookieNoticeButton.innerHTML = typeof(COOKIE_NOTICE_BUTTON) !== 'undefined' && COOKIE_NOTICE_BUTTON != '' ? COOKIE_NOTICE_BUTTON : 'Cookies&nbsp;erlauben';
@@ -30,9 +33,10 @@ window.onload = function () {
         var cookieNoticeText = document.createElement('div');
         cookieNoticeText.setAttribute('class', 'cookieNotice__text');
         cookieNoticeText.innerHTML = typeof(COOKIE_NOTICE_TEXT) !== 'undefined' && COOKIE_NOTICE_TEXT != '' ? COOKIE_NOTICE_TEXT : 'Diese Internetseite verwendet Cookies, um die Nutzererfahrung zu verbessern und den Benutzern bestimmte Dienste und Funktionen bereitzustellen.';
-
-        cookieNotice.append(cookieNoticeText);
-        cookieNotice.append(cookieNoticeButton);
+        
+        cookieNoticeInner.append(cookieNoticeText);
+        cookieNoticeInner.append(cookieNoticeButton);
+        cookieNotice.append(cookieNoticeInner);
 
         document.body.append(cookieNotice);
     }
