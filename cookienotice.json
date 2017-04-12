@@ -1,7 +1,0 @@
-{
-    "css": ".cookieNotice {}
-            .cookieNotice__inner {}
-            .cookieNotice__text {}
-            .cookieNotice__button {}",
-    "cookieLifetimeDays": 30
-}
